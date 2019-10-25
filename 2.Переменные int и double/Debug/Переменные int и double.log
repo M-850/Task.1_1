@@ -1,0 +1,3 @@
+﻿  Переменные int и double.cpp
+C:\Users\mrm30\source\repos\Переменные int и double\Переменные int и double.cpp(9,9): warning C4244:  инициализация: преобразование "double" в "int", возможна потеря данных
+  Переменные int и double.vcxproj -> C:\Users\mrm30\source\repos\Переменные int и double\Debug\Переменные int и double.exe
