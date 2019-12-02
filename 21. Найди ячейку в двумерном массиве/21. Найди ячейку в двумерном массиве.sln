@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21. Найди ячейку в двумерном массиве", "21. Найди ячейку в двумерном массиве.vcxproj", "{AA27AE38-FC36-4FD8-9F55-E489B676BCB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA27AE38-FC36-4FD8-9F55-E489B676BCB1}.Debug|x64.ActiveCfg = Debug|x64
+		{AA27AE38-FC36-4FD8-9F55-E489B676BCB1}.Debug|x64.Build.0 = Debug|x64
+		{AA27AE38-FC36-4FD8-9F55-E489B676BCB1}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA27AE38-FC36-4FD8-9F55-E489B676BCB1}.Debug|x86.Build.0 = Debug|Win32
+		{AA27AE38-FC36-4FD8-9F55-E489B676BCB1}.Release|x64.ActiveCfg = Release|x64
+		{AA27AE38-FC36-4FD8-9F55-E489B676BCB1}.Release|x64.Build.0 = Release|x64
+		{AA27AE38-FC36-4FD8-9F55-E489B676BCB1}.Release|x86.ActiveCfg = Release|Win32
+		{AA27AE38-FC36-4FD8-9F55-E489B676BCB1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AB2C848-CC1F-4E11-87E2-3BA98E4C34F6}
+	EndGlobalSection
+EndGlobal
