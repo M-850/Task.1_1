@@ -49,7 +49,8 @@ int main()
 		}
 		else if (isalnum(a))
 		{
-			str.push_back(tolower(a));		}
+			str.push_back(tolower(a));
+		}
 		
 		
 	}
