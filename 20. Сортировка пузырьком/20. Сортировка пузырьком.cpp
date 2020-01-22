@@ -17,6 +17,11 @@ void Sort(int arr[],int size)
 				check = true;
 			}
 		}
+		for (int i = 0; i < size; i++)
+		{
+			cout << arr[i];
+		}
+		cout << endl << endl;
 		if (!check) 
 		{
 			break;

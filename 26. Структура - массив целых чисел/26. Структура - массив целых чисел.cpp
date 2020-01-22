@@ -13,20 +13,15 @@ void create(IntArray* arr, int size)
 {
 	arr->size = size;
 	arr->data = new int[size];
-	for (size_t i = 0; i < size; i++)
-	{
-		std::cin >> arr->data[i];
-	}
-	std::cout << std::endl;
 }
 
+void free(IntArray* arr);
 int get(IntArray* arr, int index) 
 {
-	if (index >= arr->size)
+	if (index >= arr->size || index < 0)
 	{
 		std::cout << "Error!" << std::endl;
-		arr->data = nullptr;
-		arr->size = 0;
+		free(arr);
 		exit(1);
 	}
 	else
@@ -38,15 +33,14 @@ int get(IntArray* arr, int index)
 void set(IntArray* arr, int index, int value)
 {
 	
-	if (index < arr->size)
+	if (index < arr->size && index >= 0)
 	{
 		arr->data[index] = value;
 	}	
 	else
 	{
 		std::cout << "Error!" << std::endl;
-		arr->data = nullptr;
-		arr->size = 0;
+		free(arr);
 		exit(1);
 	}
 
@@ -83,8 +77,8 @@ void resize(IntArray* arr, int newSize)
 		}
 	}
 	arr->size = newSize;
+	delete[] arr->data;
 	arr->data = NewArray;
-	NewArray = nullptr;
 }
 
 void free(IntArray* arr)

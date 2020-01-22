@@ -1,0 +1,10 @@
+﻿  28. BozoSort.cpp
+F:\repos\28. BozoSort\28. BozoSort.cpp(68,24): warning C4018:  <: несоответствие типов со знаком и без знака
+F:\repos\28. BozoSort\28. BozoSort.cpp(102,24): warning C4018:  <: несоответствие типов со знаком и без знака
+F:\repos\28. BozoSort\28. BozoSort.cpp(128,12): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+F:\repos\28. BozoSort\28. BozoSort.cpp(133,23): warning C4018:  <: несоответствие типов со знаком и без знака
+F:\repos\28. BozoSort\28. BozoSort.cpp(149,23): warning C4018:  <: несоответствие типов со знаком и без знака
+F:\repos\28. BozoSort\28. BozoSort.cpp(156,23): warning C4018:  <: несоответствие типов со знаком и без знака
+F:\repos\28. BozoSort\28. BozoSort.cpp(165,23): warning C4018:  <: несоответствие типов со знаком и без знака
+F:\repos\28. BozoSort\28. BozoSort.cpp(173,23): warning C4018:  <: несоответствие типов со знаком и без знака
+  28. BozoSort.vcxproj -> F:\repos\28. BozoSort\Debug\28. BozoSort.exe
