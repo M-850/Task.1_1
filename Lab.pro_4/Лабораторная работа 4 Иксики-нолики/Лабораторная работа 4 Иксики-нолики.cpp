@@ -3,16 +3,19 @@
 
 #include <iostream>
 #include"Lab_4_Header.h"
+#include<ctime>
 using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "Russian");
+	srand(time(NULL));
 	Game game;
 	char litter;
 	cout << "Введите символ которым хотите играть (X или 0, другие символы недопустимы)" << endl;
 	cin >> litter;
-	while ((litter != 'X') && (litter != '0'))
+	while ((litter != 'X') && (litter != '0') && (litter != 'x'))
 	{
+		litter = char(toupper(litter));
 		cout << "Вы ввели неправильный символ попробуйте ещё раз!" << endl;
 		cin >> litter;
 	}
