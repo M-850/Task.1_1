@@ -35,9 +35,9 @@
 
 ### Ход работы
 
-https://raw.githubusercontent.com/M-850/Task.1_1/master/Lab_3/pic7.bmp
+![](https://raw.githubusercontent.com/M-850/Task.1_1/master/Lab_3/pic7.bmp "Рис.1 Изображение для расшифровки")
 
-Рис.1 Изображение для расшифровки 
+Рис.1 Изображение для расшифровки
 
 **Ключ** - 00r 00b 00g 01r 01b 01g 10r 10b
 
