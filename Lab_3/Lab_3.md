@@ -35,9 +35,7 @@
 
 ### Ход работы
 
-
-
-
+https://raw.githubusercontent.com/M-850/Task.1_1/master/Lab_3/pic7.bmp
 
 Рис.1 Изображение для расшифровки 
 
