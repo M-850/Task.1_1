@@ -26,14 +26,12 @@ void Maze_Exits(const std::string maze[], int row, int col, int arr_size)
     else
     {
         maze_way[row][col] = 1;
+        counter++;
         if (maze[row].at(col) != ' ')
         {
             std::cout << maze[row].at(col) << " ";
-            counter++;
             chek = true;
         }
-        else {
-            counter++;
             if ((row + 1) < 25 && col < 27 && maze[row + 1].at(col) != '#' && maze_way[row + 1][col] != 1)
             {
                 Maze_Exits(maze, (row + 1), col, 25);
@@ -51,7 +49,6 @@ void Maze_Exits(const std::string maze[], int row, int col, int arr_size)
                 Maze_Exits(maze, row, (col + 1), 25);
             }
             counter--;
-        }
         if (counter==0)
         {
             if (!chek) {
@@ -61,6 +58,7 @@ void Maze_Exits(const std::string maze[], int row, int col, int arr_size)
             {
                 delete[] maze_way[i];
             }
+            delete[] maze_way;
         }
     }
 }
