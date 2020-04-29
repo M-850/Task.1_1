@@ -5,9 +5,10 @@ Head_Window::Head_Window()
     window_main = new QWidget;
     window_play = new Play_Window;
     window_setting = new QWidget;
-    play_button = new QPushButton("Play", window_main);
+    QLabel *lb = new QLabel("Это окно работает",window_setting);
+    play_button = new QPushButton("Играть", window_main);
     play_button->setGeometry(960,500,100,40);
-    setting_button = new QPushButton("Setting", window_main);
+    setting_button = new QPushButton("Настройки", window_main);
     setting_button->setGeometry(960,580,100,40);
     this->addWidget(window_main);
     this->addWidget(window_play);
@@ -21,6 +22,10 @@ void Head_Window::toPlay()
 void Head_Window::toSetting()
 {
     this->setCurrentWidget(this->window_setting);
+}
+void Head_Window::toHelp()
+{
+    this->setCurrentWidget(this->window_help);
 }
 QWidget* Head_Window::GetWindowMain()
 {

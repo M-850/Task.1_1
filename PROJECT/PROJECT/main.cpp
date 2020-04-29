@@ -12,6 +12,6 @@ int main(int argc, char *argv[])
     my_play->showMaximized();
 
     QObject::connect((my_play->GetPlayButton()),SIGNAL(clicked()), my_play, SLOT(toPlay()));
-
+    QObject::connect((my_play->SettingButton()),SIGNAL(clicked()), my_play, SLOT(toSetting()));
     return a.exec();
 }

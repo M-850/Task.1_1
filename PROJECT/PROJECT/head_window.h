@@ -17,9 +17,12 @@ public slots:
     void toPlay();
 public slots:
     void toSetting();
+    public slots:
+    void toHelp();
 private:
     QWidget *window_main;
     Play_Window *window_play;
+    QWidget* window_help;
     QWidget *window_setting;
     QPushButton *play_button;
     QPushButton *setting_button;

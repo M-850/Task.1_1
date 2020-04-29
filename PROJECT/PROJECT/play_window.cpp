@@ -11,7 +11,7 @@ void Play_Window::paintEvent(QPaintEvent *event )
 {
     QRect rect(0,0,this->width(),this->height());
     this->lb->setGeometry(rect);
-    this->map.load("F:\\PROJECT\\Map.png");
+    this->map.load("\\PROJECT\\Map.png");
     QPixmap p;
     lb->setPixmap(p.fromImage(map));
 
