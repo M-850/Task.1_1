@@ -3,118 +3,127 @@
 #include<Qstack>
 #include<string>
 #include<math.h>
-std::string reverse_polish_notation(std::string str)
-{
-    char check = NULL;
-    std::string str_ret;
-    QStack<char>stk;
-    for(int counter = 0 ; str[counter]; counter++){
-    switch (str.at(counter)) {
-    case '(':
-    {
-        stk.push('(');
-        check = '(';
-        break;
-    }
-    case '+':
-    {
+//std::string reverse_polish_notation(std::string str)
+//{
+//    char check = NULL;
+//    std::string str_ret;
+//    QStack<char>stk;
+//    for(int counter = 0 ; str[counter]; counter++){
+//    switch (str.at(counter)) {
+//    case '(':
+//    {
+//        stk.push('(');
+//        check = '(';
+//        break;
+//    }
+//    case '+':
+//    {
 
-        if(check=='-'||check=='+'||check=='*'||check=='/')
-        {
-        str_ret += stk.pop();
-        str_ret += ' ';
-        }
-        check='+';
-        stk.push('+');
-        break;
-    }
-    case '-':
-    {
-        if(check=='-'||check=='+'||check=='*'||check=='/'|| check =='^')
-        {
-        str_ret += stk.pop();
-        str_ret += ' ';
-        }
-        stk.push('-');
-        check='-';
-        break;
-    }
-    case '*':
-    {
-        if(check=='*'||check=='/'|| check =='^')
-        {
-            str_ret +=stk.pop();
-            str_ret += ' ';
-        }
-        stk.push('*');
-        check = '*';
-        break;
-    }
-    case '/':
-    {
-        if(check=='*'||check=='/'|| check =='^')
-        {
-            str_ret +=stk.pop();
-            str_ret += ' ';
-        }
-        stk.push('/');
-        check = '/';
-        break;
-    }
-    case '^':
-    {
-         if(check =='^')
-         {
-         str_ret += stk.pop();
-         str_ret += ' ';
-         }
-         stk.push('^');
-         check='^';
-         break;
-    }
-    case ')':
-    {
-        for(int i=0; ;i++)
-        {
-            char temp = stk.pop();
-            if(temp == '(')
-            {
-                break;
-            }
-            else
-            {
-             str_ret += temp;
-             str_ret += ' ';
-            }
-        }
-        break;
-    }
-    case '.':
-    {
-        str_ret.resize(str_ret.size()-1);
-        str_ret += '.';
-    }
-    case ' ':
-    {
-        break;
-    }
+//        if(check=='-'||check=='+'||check=='*'||check=='/')
+//        {
+//        str_ret += stk.pop();
+//        str_ret += ' ';
+//        }
+//        check='+';
+//        stk.push('+');
+//        break;
+//    }
+//    case '-':
+//    {
+//        if(check=='-'||check=='+'||check=='*'||check=='/'|| check =='^')
+//        {
+//        str_ret += stk.pop();
+//        str_ret += ' ';
+//        }
+//        stk.push('-');
+//        check='-';
+//        break;
+//    }
+//    case '*':
+//    {
+//        if(check=='*'||check=='/'|| check =='^')
+//        {
+//            str_ret +=stk.pop();
+//            str_ret += ' ';
+//        }
+//        stk.push('*');
+//        check = '*';
+//        break;
+//    }
+//    case '/':
+//    {
+//        if(check=='*'||check=='/'|| check =='^')
+//        {
+//            str_ret +=stk.pop();
+//            str_ret += ' ';
+//        }
+//        stk.push('/');
+//        check = '/';
+//        break;
+//    }
+//    case '^':
+//    {
+////         if(check =='^')
+////         {
+////         str_ret += stk.pop();
+////         str_ret += ' ';
+////         }
+//         stk.push('^');
+//         check='^';
+//         break;
+//    }
+//    case ')':
+//    {
+//        for(int i=0; ;i++)
+//        {
+//            char temp = stk.pop();
+//            if(temp == '(')
+//            {
+//                break;
+//            }
+//            else
+//            {
+//             str_ret += temp;
+//             str_ret += ' ';
+//            }
+//        }
+//        break;
+//    }
+//    case '.':
+//    {
+//        str_ret.resize(str_ret.size()-1);
+//        str_ret += '.';
+//    }
+//    case ' ':
+//    {
+//        break;
+//    }
 
-    default:
-    {
-        str_ret += str.at(counter);
-        str_ret += ' ';
-        break;
-    }
-    }
+//    default:
+//    {
+//        std::cout << "0"<<std::endl;
+////        str_ret += str.at(counter);
+////        str_ret += ' ';
+//        std::cout << "1"<<std::endl;
+//       if (check == '^')
+//       {
+//           std::cout << "2"<<std::endl;
+//            str_ret += stk.pop();
+//            std::cout << "3"<<std::endl;
+//       }
+//       std::cout << "4"<<std::endl;
+//        break;
+//    }
+//    }
 
-}
-    while(!stk.empty())
-    {
-        str_ret += stk.pop();
-        str_ret += ' ';
-    }
-    return str_ret;
-}
+//}
+//    while(!stk.empty())
+//    {
+//        str_ret += stk.pop();
+//        str_ret += ' ';
+//    }
+//    return str_ret;
+//}
 
 double Result(std::string str)
 {
