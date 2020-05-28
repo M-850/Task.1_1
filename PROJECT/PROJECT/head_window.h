@@ -3,7 +3,7 @@
 #include<QtWidgets>
 #include<play_window.h>
 class Head_Window: public QStackedWidget
-{ 
+{
     Q_OBJECT
 public:
     Head_Window();
@@ -16,17 +16,16 @@ QPushButton *SettingButton();
 public slots:
     void toPlay();
 public slots:
-    void toSetting();
+   // void toSetting();
     public slots:
-    void toHelp();
+    //void toHelp();
 private:
     QWidget *window_main;
     Play_Window *window_play;
-    QWidget* window_help;
-    QWidget *window_setting;
+   // QWidget* window_help;
+   // QWidget *window_setting;
     QPushButton *play_button;
-    QPushButton *setting_button;
+   // QPushButton *setting_button;
 
 };
-
 #endif // HEAD_WINDOW_H
