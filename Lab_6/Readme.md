@@ -126,7 +126,7 @@
 
    3.
    
-   https://raw.githubusercontent.com/M-850/Task.1_1/master/Lab_6/Weather%20in%20Simferopol.png
+   ![](https://raw.githubusercontent.com/M-850/Task.1_1/master/Lab_6/Weather%20in%20Simferopol.png)
 
 
 
