@@ -39,17 +39,21 @@
 
 1. ![](https://raw.githubusercontent.com/M-850/Task.1_1/master/Lab_8/Android.png)
 
-*Рис.1 Скриншот окна настроек **Qt Creator** после настройки для сборки android приложений*
+*Рис.1 Скриншот окна настроек Qt Creator после настройки для сборки android приложений*
 
 
 
+2.
+
+Для сборки под Android был выбран проект под названием "Qt 3D: Planets QML Example". 
+
+![](https://raw.githubusercontent.com/M-850/Task.1_1/master/Lab_8/Projekt_Planets_3D.png)
+
+*Рис.2 Выбранный проект*
 
 
 
-
-
-
-2. 
+3.
 
 ![](https://raw.githubusercontent.com/M-850/Task.1_1/master/Lab_8/Screenshot_20200619-135741.jpg)
 
