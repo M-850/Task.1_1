@@ -37,7 +37,9 @@
 
 **Ход работы**
 
-1. ![](https://raw.githubusercontent.com/M-850/Task.1_1/master/Lab_8/Android.png)
+1.
+
+![](https://raw.githubusercontent.com/M-850/Task.1_1/master/Lab_8/Android.png)
 
 *Рис.1 Скриншот окна настроек Qt Creator после настройки для сборки android приложений*
 
