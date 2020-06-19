@@ -37,6 +37,24 @@
 
 **Ход работы**
 
-1. 
+1. ![](https://raw.githubusercontent.com/M-850/Task.1_1/master/Lab_8/Android.png)
+
+*Рис.1 Скриншот окна настроек **Qt Creator** после настройки для сборки android приложений*
+
+
+
+
+
+
+
+
+
+2. 
+
+![](https://raw.githubusercontent.com/M-850/Task.1_1/master/Lab_8/Screenshot_20200619-135741.jpg)
+
+
+
+*Рис.3 скриншот экрана с запущенным приложением на устройстве.*
 
 **Вывод:** установил OpenJDK 8 и Android Studio, научился настраивать IDE Qt Creator для разработки приложений под android ОС, понял принцип отладки приложения на реальном устройстве. 
