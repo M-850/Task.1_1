@@ -1,0 +1,15 @@
+garbage_collection_service.o
+garbage_recycling_plant.o
+head_window.o
+land.o
+main.o
+myclient.o
+play_window.o
+player.o
+window_land.o
+moc_head_window.o
+moc_land.o
+moc_myclient.o
+moc_play_window.o
+moc_player.o
+moc_window_land.o
